@@ -23,7 +23,8 @@ namespace GitTFSTest.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            // This is change 2
+            ViewBag.Message = "My contact page.";
 
             return View();
         }
