@@ -15,7 +15,8 @@ namespace GitTFSTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            // This is change 1
+            ViewBag.Message = "Description page.";
 
             return View();
         }
