@@ -10,6 +10,8 @@ namespace GitTFSTest.Controllers
     {
         public ActionResult Index()
         {
+            // This is change 3
+            ViewBag.Title = "GitTFSTest";
             return View();
         }
 
